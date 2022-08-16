@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
 import TodoList from "./components/TodoList/TodoList";
 import InputBox from "./components/InputBox/InputBox";
 import LowerHeader from "./components/Header/LowerHeader";
