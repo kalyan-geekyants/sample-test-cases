@@ -1,0 +1,13 @@
+@import "./styles/variables.scss";
+
+body{
+  background-color: $backgroundColor;;
+}
+
+.app-body{
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

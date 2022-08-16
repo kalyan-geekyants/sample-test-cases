@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+@import "../TodoItem/todoitem.scss";
+
+.todo-title{
+    color: $whiteColor;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lower-header{
+    @include todoItem();
+    font-size: 13px;
+    padding: 8px 15px;
+}
+
+.todo-status{
+    margin-left:  5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.active{
+    color: blue;
+}
